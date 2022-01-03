@@ -1,0 +1,68 @@
+.todo{
+    background-image: url('../images//i.jpg');
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    margin:0;
+   /*  margin-left:-5.3em ; */
+    background-position: center center;
+    background-size:cover;
+    background-attachment: fixed;
+    display:grid;
+}
+.base{
+    display: flex;
+    /* justify-content: center; */
+    margin-left: 45rem;
+    /* border-radius: 2rem; */
+    /* margin-top: 4rem; */
+    align-items: center;
+    
+    flex-direction: column;
+    width: 35rem;
+    transition: 10s;
+    height: 80rem;
+    background-color: rgb(255, 255, 255);
+}
+.base > p{
+    margin-top: 6rem;
+    font-size :2rem;
+    font-style: normal;
+    font-family: Arial, sans-serif;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.formulario > input{
+    margin: 2rem;
+    width: 23rem;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.boton{
+    background-color: rgb(70, 126, 225); /* Green */
+    border: none;
+    color: white;
+    margin: 1rem;
+    padding: 15px 32px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.boton:hover{
+    transition: 0.5s;
+    background-color: #b27ed0;
+}
+.links{
+    display: flex;
+    margin: 20px;
+   /*  justify-content: space-around; */
+  justify-content: space-evenly;
+}

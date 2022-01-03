@@ -1,0 +1,48 @@
+.todo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.base{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.base > form > input{
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    transition: 0.5s;
+    width: 13rem;
+    margin-right: 16px;
+    font-size: 17px;
+    cursor: text;
+}
+.base > form > input:hover{
+    float: right;
+    transition: 0.8s;
+    box-shadow: px solid black;
+    padding: 3px;
+    border: none;
+    margin-top: 8px;
+    width: 14rem;
+    margin-right: 16px;
+    font-size: 17px;
+}
+.formulario{
+    display: flex;
+}
+.formulario > button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,73 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    background-color: rgb(120, 79, 232);
+    justify-content: space-around;
+}
+.hache1 {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.Link{
+    text-decoration: none;
+    color : white;
+    font-size: 1.4rem;
+}
+.LinkBase{
+    margin-right: calc(100% - 20%);
+}
+.anteCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    border-radius: 7rem;
+    flex-direction: column;
+    margin-top: 4rem;
+    justify-content: center;
+    background-color: rgb(82, 49, 230);
+    width: 20rem;
+    height: 30rem;
+    padding: 2rem;
+}
+.card p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+
+}
+.card h4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px; 
+}
+.card h4 > p{
+    color: white;
+    font-size: 1.2rem;
+    background-color: rgb(233, 118, 185);
+}
+.todo{
+    background-image: url('../images/ImagenFondo2.png');
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    margin:0;
+   /*  margin-left:-5.3em ; */
+    background-position: center center;
+    background-size:cover;
+    background-attachment: fixed;
+}

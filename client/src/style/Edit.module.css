@@ -1,0 +1,19 @@
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffe945; /* Green */
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.baseBoton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

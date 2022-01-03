@@ -1,0 +1,50 @@
+.table{
+    justify-content: center;
+    align-items: center;
+    border-collapse: collapse;
+    border-collapse: collapse;
+    width: 50%;
+}
+table, th, tr{
+    border: 1px solid #ddd;
+    text-align: left;   
+}
+table > thead > tr {
+    
+    padding: 15px;
+}
+
+.tdAhora{
+    padding: 7px;
+}
+
+table > thead > tr  > th{
+    border: 1px  black; 
+    padding: 15px;
+    padding: 15px;
+}
+.todo{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff4545; /* Green */
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.baseBoton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
